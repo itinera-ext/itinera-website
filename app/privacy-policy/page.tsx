@@ -89,7 +89,7 @@ const PrivacyPolicy = () => {
         <p>
           If you have any questions or concerns about this Privacy Policy or its
           implementation, you may contact us at{" "}
-          <a href="mailto:victor@coltisor.com">victor@coltisor.com</a>.
+          <a href="mailto:contact@itinera.world">contact@itinera.world</a>.
         </p>
       </div>
     </>
