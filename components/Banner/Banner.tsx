@@ -15,7 +15,7 @@ function Banner() {
             seamlessly add them into your Google Calendar
           </p>
           <PrimaryButton
-            href="https://chromewebstore.google.com/detail/itinera-%E2%80%93-plan-your-trip/ijkbbldofdehelecdeeomckgccbfebfo?utm_source=ext_app_menu"
+            href="https://chromewebstore.google.com/detail/itinera-%E2%80%93-plan-your-trip/ijkbbldofdehelecdeeomckgccbfebfo"
             target="_blank"
           >
             Add to Chrome - Its Free{" "}
