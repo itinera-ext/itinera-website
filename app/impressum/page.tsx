@@ -21,7 +21,7 @@ export default function Impressum() {
         </p>
 
         <h2>Kontakt:</h2>
-        <p>E-Mail: victor@coltisor.com</p>
+        <p>E-Mail: contact@itinera.world</p>
 
         <h2>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</h2>
         <p>
