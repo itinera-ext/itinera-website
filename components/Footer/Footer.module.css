@@ -1,0 +1,44 @@
+.footerContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 2rem;
+}
+
+.textContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.socialMediaContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footerText {
+  text-align: center;
+  font-size: 16px;
+}
+
+.logoImage {
+  width: 150px;
+  height: auto;
+}
+
+.socialMediaImg {
+  margin: 0 0.5rem;
+}
+
+.bottomLink {
+  color: #000;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 0 0.5rem;
+  font-weight: 500;
+}

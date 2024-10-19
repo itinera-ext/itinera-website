@@ -1,0 +1,45 @@
+.stepContainer {
+  display: flex;
+  align-items: center;
+  padding: 2rem 7rem;
+  gap: 1rem;
+  position: relative;
+}
+
+.stepContainerReverse {
+  flex-direction: row-reverse;
+  background-color: #f0f0f0;
+}
+
+.stepContainerNormal {
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+.stepImage {
+  width: 60%;
+}
+
+.stepText {
+  font-size: 1rem;
+  color: #333;
+}
+
+.additionalText {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.additionalTextContainer {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  margin: 1rem;
+}
+
+.stepTitle {
+  color: #ff5633;
+  font-weight: 600;
+  margin-top: 0;
+}

@@ -1,0 +1,22 @@
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.tutorialContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0;
+}
+
+.tutorialHeader {
+  text-align: center;
+}
+
+.orange {
+  color: #ff5633;
+}
+
+.boldText {
+  font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.bannerContainer {
+  margin: 2rem 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.planYourTripContainer {
+  text-align: center;
+}
+
+.bannerHeader {
+  margin: 0;
+  font-weight: 500;
+}
+
+.orange {
+  color: #ff5633;
+}
+
+.styledBannerImage {
+  width: 50%;
+}
+
+.blackLine {
+  width: 10%;
+  height: 2px;
+  background-color: #000;
+  margin: 1rem 0;
+  align-self: center;
+}

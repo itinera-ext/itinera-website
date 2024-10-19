@@ -1,0 +1,22 @@
+.button {
+  z-index: 10;
+  position: fixed;
+  bottom: 4rem;
+  right: 3rem;
+  color: #000;
+  border: 2px solid #000;
+  border-radius: 50px;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.buttonHidden {
+  display: none;
+}
+
+.button:hover {
+  color: grey;
+  border: 2px solid grey;
+}
