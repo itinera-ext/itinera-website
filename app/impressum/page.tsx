@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Impressum.module.css";
+import styles from "./impressum.module.css";
 import Navbar from "@/components/Navbar/Navbar";
 
 export default function Impressum() {
