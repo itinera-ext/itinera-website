@@ -1,14 +1,15 @@
 .button {
   z-index: 10;
   position: fixed;
-  bottom: 4rem;
+  bottom: 3rem;
   right: 3rem;
   color: white;
   border: unset;
   background-color: #ff5633;
   border-radius: 50px;
-  width: 2rem;
-  height: 2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
