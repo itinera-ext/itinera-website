@@ -1,8 +1,8 @@
 .button {
   z-index: 10;
   position: fixed;
-  bottom: 3rem;
-  right: 3rem;
+  bottom: 1rem;
+  right: 1rem;
   color: white;
   border: unset;
   background-color: #ff5633;
@@ -12,6 +12,9 @@
   font-size: 20px;
   cursor: pointer;
   transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttonHidden {
