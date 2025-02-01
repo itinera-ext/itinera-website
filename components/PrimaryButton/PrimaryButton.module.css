@@ -1,9 +1,9 @@
 .styledLink {
   background-color: #ff5633;
   color: #fff;
-  padding: 0.3rem 0.6rem;
+  padding: 0.6rem 1.2rem;
   border: none;
-  border-radius: 0.2rem;
+  border-radius: 0.6rem;
   cursor: pointer;
   font-weight: 500;
   font-family: "Outfit", sans-serif;
