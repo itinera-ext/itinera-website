@@ -1,5 +1,5 @@
 .bannerContainer {
-  margin: 2rem 7rem;
+  margin: 2rem;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -20,6 +20,8 @@
 
 .styledBannerImage {
   width: 50%;
+  max-width: 892px;
+  height: auto;
 }
 
 .blackLine {
@@ -28,4 +30,36 @@
   background-color: #000;
   margin: 1rem 0;
   align-self: center;
+}
+
+@media (max-width: 768px) {
+  .bannerContainer {
+    margin: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .styledBannerImage {
+    width: 90%;
+  }
+
+  .blackLine {
+    width: 20%;
+  }
+}
+
+@media (max-width: 480px) {
+  .bannerContainer {
+    margin: 1rem;
+    gap: 2rem;
+  }
+
+  .styledBannerImage {
+    width: 100%;
+  }
+
+  .blackLine {
+    width: 30%;
+  }
 }

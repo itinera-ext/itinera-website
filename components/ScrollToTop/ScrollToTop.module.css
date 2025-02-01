@@ -3,13 +3,14 @@
   position: fixed;
   bottom: 4rem;
   right: 3rem;
-  color: #000;
-  border: 2px solid #000;
+  color: white;
+  border: unset;
+  background-color: #ff5633;
   border-radius: 50px;
   width: 2rem;
   height: 2rem;
   cursor: pointer;
-  transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .buttonHidden {
@@ -17,6 +18,5 @@
 }
 
 .button:hover {
-  color: grey;
-  border: 2px solid grey;
+  transform: scale(1.1);
 }

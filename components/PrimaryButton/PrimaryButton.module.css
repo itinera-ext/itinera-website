@@ -10,14 +10,15 @@
   font-size: 20px;
   text-decoration: none;
   display: inline-block;
+  transition: all 0.3s ease;
 }
 
 .styledLink:hover {
-  background-color: #a52c24;
+  background-color: #cf392f;
 }
 
 .styledLink:focus {
-  background-color: #a52c24;
+  background-color: #cf392f;
 }
 
 .styledLink:disabled {

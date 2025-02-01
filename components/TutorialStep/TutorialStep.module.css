@@ -1,23 +1,28 @@
 .stepContainer {
   display: flex;
   align-items: center;
-  padding: 2rem 7rem;
-  gap: 1rem;
+  padding: 2rem;
+  gap: 2rem;
   position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 16px;
 }
 
 .stepContainerReverse {
   flex-direction: row-reverse;
-  background-color: #f0f0f0;
+  background-color: transparent;
 }
 
 .stepContainerNormal {
   flex-direction: row;
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .stepImage {
   width: 60%;
+  max-width: 100%;
+  height: auto;
 }
 
 .stepText {
@@ -42,4 +47,28 @@
   color: #ff5633;
   font-weight: 600;
   margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .stepContainer {
+    flex-direction: column-reverse !important;
+    padding: 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .stepImage {
+    width: 100%;
+  }
+
+  .additionalTextContainer {
+    position: static;
+    margin: 0 0 1rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .stepContainer {
+    padding: 1rem;
+    gap: 1rem;
+  }
 }
